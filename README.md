@@ -44,7 +44,7 @@ where the test.py file is. For example, you use the cd command to change the fol
 from the current selected folder.
 
 Once you navigate to the folder where the test.py file is, type in this command:
-"python test.py". This should launch the programm, and you should receive a URL that
+"python test.py". This should launch the program, and you should receive a URL that
 begins with http:... Copy this and paste it in Chrome or your selected browser. Voila!
 You can see my project! You can open these files in a text editor or a notepad and view the raw code as well.
 
