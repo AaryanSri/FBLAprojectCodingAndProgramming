@@ -25,7 +25,30 @@ my html files can be found in the templates folder. Each html file has comments
 which explain what each file does.
 My CSS code is located in static > css.
 
-# How to run this
+# How to run this using Anaconda (recommended)
+Anaconda is essentially a python installation, however it additionally installs
+other packages like Flask, things which normally would have to be manually installed.
+
+Download Anaconda Individual Edition (https://www.anaconda.com/products/individual#windows).
+
+Download my code using the download code button on the github page.
+
+If the github download is not working, here is a backup google drive. However,
+I recommend using github since it is more organized and easier to follow.
+https://drive.google.com/drive/folders/14CKATZ6CYolJwycBUBFFk2m4gIKhPDtz?usp=sharing
+
+Open the anaconda prompt on your Windows or Mac.
+
+Similar to how you would change your directory on your cmd or mac cmd, navigate to
+where the test.py file is. For example, you use the cd command to change the folder
+from the current selected folder.
+
+Once you navigate to the folder where the test.py file is, type in this command:
+"python test.py". This should launch the programm, and you should receive a URL that
+begins with http:... Copy this and paste it in Chrome or your selected browser. Voila!
+You can see my project! You can open these files in a text editor or a notepad and view the raw code as well.
+
+# How to run this using python
 
 First, install python. This can be done by going to python.org/downloads, and
 download the latest version depending on which operating system you are using.
