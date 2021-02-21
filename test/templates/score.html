@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- generates correct answer report -->
+<div class="answerreport">
+  {% if score >= 4 %}
+  <p> Congratulations! Your Score is: <br>
+      {{score}}
+  </p>
+  {% elif score == 3 %}
+  <p> Almost there! Your score is: <br>
+    {{score}}
+  </p>
+  {% else %}
+  <p> Good try! Your score is: <br>
+    {{score}}<br>
+    You can retake if you like!
+  </p>
+  {% endif %}
+
+
+<hr class="line">
+</div>
+
+<div class="questions">
+<ol>
+{% for question, answer in solutions %}
+  <li>{{question['q']}}</li>
+  {% if answer == "" %}
+  <p>Your answer: none</p>
+  <p>Correct answer: {{question['a']}}</p>
+  <hr class = "line">
+  {% else %}
+  <p>Your answer: {{answer}}</p>
+  <p>Correct answer: {{question['a']}}</p>
+  <hr class="line">
+  {% endif %}
+{% endfor %}
+
+</ol>
+</div>
+
+<form action="/">
+  <input type='submit' class="submit-button" value="Retake">
+</form>
+
+
+
+{% endblock %}

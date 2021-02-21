@@ -1,0 +1,115 @@
+/*This CSS file contains all the CSS used in my html files. The .[variable name]
+corresponds to the class set in my divs in my html files
+ */
+
+body {
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  padding:0;
+  margin:0;
+  display:block;
+}
+
+.banner > .banner-image {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  max-width: 100%;
+}
+
+.line {
+  border: 10px solid #be2f37;
+  border-radius: 5px;
+}
+
+.instructions-box {
+  width: 100%;
+  border: 2px solid #141f3d;
+  padding: 0px 5px 0px 10px;
+  float: left;
+}
+
+.instructions-box > p {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+    color: #141f3d;
+}
+
+.submit-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #141f3d;
+  color: #ccc;
+  width: 220px;
+  height: 70px;
+  border: 3px solid #bb3035;
+  font-size: 30px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+}
+
+.submit-button:focus {
+  outline:none;
+}
+
+.submit-button:hover {
+  background: #b83137;
+  cursor: pointer;
+}
+
+.questions {
+  width: 100%;
+  padding: 0px 5px 0px 5px;
+  float: left;
+  font-family: sans-serif, Arial;
+  font-size: 25px;
+  color: #141f3d;
+  padding: 0px 10px 0px 10px;
+
+}
+
+.mcanswers {
+  color: #141f3d;
+  font-family: sans-serif, Arial;
+  font-size: 25px;
+}
+
+.tfbutton {
+  color: #141f3d;
+  border: 3px solid #141f3d;
+  width: 20px;
+  height: 20px;
+}
+
+select {
+  background-color: #FFFFFF;
+  color: #141f3d;
+  border: 3px solid #141f3d;
+  font-style: sans-serif;
+  font-size: 1.3rem;
+}
+
+.textbox {
+  color: #141f3d;
+  border: 3px solid #141f3d;
+  font-style: sans-serif;
+  font-size: 1.3rem;
+  width: 177px;
+}
+
+.answerreport {
+  color: #141f3d;
+  font-style: sans-serif;
+  font-size: 50px;
+  text-align: center;
+
+}

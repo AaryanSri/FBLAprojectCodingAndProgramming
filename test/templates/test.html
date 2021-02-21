@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %}
+  <!-- Website Instructions-->
+  <div class="instructions-box">
+    <p>Welcome to an FBLA trivia quiz! Four types of questions may occur (True/False,
+      Multiple-Choice, Fill in the Blank, and Dropdown). There are five questions that
+      will be displayed below. Make sure to read all the instructions and answer each
+      question carefully!</p>
+  </div>
+
+<form action="/score" method="POST">
+<!-- I am using jinja2 template which lets me to type python in html file -->
+<!--Question and Answer Display -->
+  <div class="questions">
+    <ol>
+    {% for i, question in questions %}
+    <p><li>{{question['q']}}</li></p>
+<!-- Multiple Choice Question Code -->
+    {% if question['qtype'] == 'mc' %}
+      {% for option in question['ac'] %}
+        <div class="mcanswers">
+          <input type="radio" id={{option}} class="btn" value="{{option}}" name={{i}}>
+          <label for={{option}}>{{option}}</label>
+        </div>
+        {% endfor %}
+        <input type="radio" id="None of the Above" class="btn" value="None of the Above" name={{i}} checked="checked">
+        <label for="None of the Above">None of the Above</label>
+
+<!-- true/false question code -->
+    {% elif question['qtype'] == 'tf' %}
+      {% for option in question['ac'] %}
+        <div class="tfanswer">
+          <input class="tfbutton" type="radio" name={{i}} value={{option}}>
+          <label for={{option}}>{{option}}</label>
+        </div>
+      {% endfor %}
+<!-- Dropdown question code -->
+    {% elif question['qtype'] == 'dd' %}
+      {% for option in question['ol'] %}
+      <ul>
+        <li><p>{{option}}</p></li>
+          <div class="custom-select">
+            <select name={{i}}>
+            {% for option in question['ac'] %}
+            <option value="{{option}}" id={{option}} selected="selected">{{option}}</option>
+            {% endfor %}
+            </select>
+          </div>
+      </ul>
+      {% endfor %}
+<!-- Fill in the blank code -->
+    {% elif question['qtype'] == 'fitb' %}
+      <div class="textbox">
+        <input type="text" name={{i}}>
+      </div>
+
+    {% endif %}
+    {% endfor %}
+    </ol>
+  </div>
+
+<!-- Submit Button -->
+  <div class="btn">
+    <input type="submit" value="Submit" class="submit-button">
+  </div>
+</form>
+{% endblock %}

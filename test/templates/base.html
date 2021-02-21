@@ -1,0 +1,19 @@
+<DOCTYPE html>
+<html lang="en">
+<!-- this html file provides the basic fundamental structure used by all of my html files -->
+<head>
+    <meta charset="utf-8">
+    <title>FBLA Quiz</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style2.css')}}">
+</head>
+<body>
+  <!-- Website Banner -->
+  <div class="banner">
+    <img class="banner-image" src="../static/FBLA2.jpg">
+  </div>
+<!-- red line -->
+  <hr class="line">
+  {% block content %}
+  {% endblock %}
+</body>
+</html>

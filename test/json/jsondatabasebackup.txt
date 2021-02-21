@@ -1,0 +1,50 @@
+{"id" : 1 , "qtype" : "mc" , "q" : "How many questions are in FBLA tests?" , "ac" : ["60 questions", "100 questions", "75 questions", "120 questions"] , "a" : "100 questions"}
+{"id" : 2 , "qtype" : "tf" , "q" : "A FBLA chapter is an event that uses academic competition to prepare students for careers and businesses." , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 3 , "qtype" : "fitb" , "q" : "FBLA stands for Future _ Leaders of America." , "a" : "business"}
+{"id" : 4 , "qtype" : "mc" , "q" : "What year was the first high school chapter organized?" , "ac" : ["1937", "1987", "1942", "1957"] , "a" : "1942"}
+{"id" : 5 , "qtype" : "mc" , "q" : "FBLA-PBL is the division for which group of students?" , "ac" : ["High School", "Middle School", "Elementary School", "College"] , "a" : "College"}
+{"id" : 6 , "qtype" : "fitb" , "q" : "The FBLA _ Statement starts with the words, \"Our mission statement is to bring business and education together...\"" , "a" : "mission"}
+{"id" : 7 , "qtype" : "mc" , "q" : "The FBLA_PBL National Center is located where?" , "ac" : ["Washington, DC", "Orlando, FL", "Reston, VA", "Death Valley, CA"] , "a" : "Reston, VA"}
+{"id" : 8 , "qtype" : "mc" , "q" : "FBLA-PBL is divided into __ administrative regions." , "ac" : ["1", "3", "14", "5"] , "a" : "5"}
+{"id" : 9 , "qtype" : "mc" , "q" : "The three categories of competitive events are…" , "ac" : ["Individual, Group, Member", "Individual, Team, Chapter", "Individual, Group, Team", "Chapter, Individual, Solo"] , "a" : "Individual, Team, Chapter"}
+{"id" : 10 , "qtype" : "mc" , "q" : "What is the official website address for FBLA-PBL?" , "ac" :["www.fbla-pbl.org",	"www.fbla.org", "www.fbla-pbl.gov", "www.fbla.pbl"] , "a" : "www.fbla-pbl.org"}
+{"id" : 11 , "qtype" : "mc" , "q" : "FBLA Middle level membership is open to students in…" , "ac" : ["9-12", "K-12", "5-9", "7-10"] , "a" : "5-9"}
+{"id" : 12 , "qtype" : "mc" , "q" : "What does PBL in FBLA-PBL stand for?" , "ac" : ["Phi Beta Lambda", "Phi Business Lambda", "Phi Business Language", "People's Business Learning"], "a" : "Phi Beta Lambda"}
+{"id" : 13 , "qtype" : "ftib" , "q" : "The FBLA colors are gold and _." , "a" : "blue"}
+{"id" : 14 , "qtype" : "mc" , "q" : "When was the FBLA concept founded?" , "ac" : ["1981", "1937", "1971", "1921"] , "a" : "1937"}
+{"id" : 15 , "qtype" : "mc" , "q" : "Who created FBLA?" , "ac" : ["Hamden L. Forkner" , "Henry D. Forkrich" , "Sarah K. Wendy" , "Lynne McGee"] , "a" : "Hamden L. Forkner"}
+{"id" : 16 , "qtype" : "mc" , "q" : "Where was the first high school that FBLA had chartered?" , "ac" : ["Johnson City, Tennessee", "Reston, Virgina", "Orlando, Florida", "Milpitas, California"] , "a" : "Johnson City, Tennessee"}
+{"id" : 17 , "qtype" : "mc" , "q" : "Future Business Leaders of America is for:" , "ac" : ["CEOs", "High School students", "Americans", "Aspiring Doctors"] , "a" : "High School students"}
+{"id" : 18 , "qtype" : "mc" , "q" : "Phi Beta Lambda FBLA is for:" , "ac" : ["High School Students", "Middle School students", "College students", "Middle School students", "Professionals"] , "a" : "College students"}
+{"id" : 19 , "qtype" : "mc" , "q" : "What is the fiscal year for FBLA?" , "ac" : ["January 1 - December 31", "June 1 - February 31", "July 1 - June 30", "September 15 - July 15"], "a" : "July 1 - June 30"}
+{"id" : 20 , "qtype" : "dd" , "q" : "Select either \"REGION\" or \"NOT REGION\" depending on whether the North Coast is a region of FBLA." , "ac" : ["REGION", "NOT REGION"] , "a" : "NOT REGION"]}
+{"id" : 21 , "qtype" : "mc" , "q" : "Identify this message. \"I solemnly promise to uphold the aims and responsibilities of Future Business Leaders of America-Phi Beta Lambda and, as an active member, I shall strive to develop the qualities necessary in becoming a responsible business leader.\"" , "ac" : ["FBLA Promise", "FBLA Goal", "FBLA Pledge", "FBLA Mission"] , "a" : "FBLA Pledge"}
+{"id" : 22 , "qtype" : "mc" , "q" : "What publication is for FBLA members and advisors?" , "ac" : ["Future Business Leaders of America Handbook", "Tomorrow's Business Leader", "The Future Leaders", "FBLA Times"] , "a" : "Tomorrow's Business Leader"}
+{"id" : 23 , "qtype" : "tf" , "q" : "FBLA Test Events are 120 minutes." , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 24 , "qtype" : "tf" , "q" : "FBLA week takes place in February." , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 25 , "qtype" : "tf" , "q" : "The three words on the FBLA Emblem are Service, Education, and Progress." , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 26 , "qtype" : "tf" , "q" : "American Enterprise Day is in March." , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 27 , "qtype" : "tf" , "q" : "Missouri is part of the Southern Region for FBLA." , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 28 , "qtype" : "tf" , "q" : "Florida is in the Southern Region for FBLA" , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 29 , "qtype" : "tf" , "q" : "\"I believe education is the right of every person\" is the first stanza of the FBLA Creed." , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 30 , "qtype" : "tf" , "q" : "The Secretary is always supposed to preside over meetings in FBLA." , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 31 , "qtype" : "tf" , "q" : "Georgia was the first state to charter a high school chapter of FBLA." , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 32 , "qtype" : "tf" , "q" : "Around 5 million students are in the high school division for FBLA."  , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 33 , "qtype" : "fitb" , "q" : "FBLA has _ goals (enter a number)." , "a" : "9"}
+{"id" : 34 , "qtype" : "tf" , "q" : "There are 4 divisions of FBLA." , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 35 , "qtype" : "tf" , "q" : "FBLA-PBL is meant for high school students." , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 36 , "qtype" : "tf" , "q" : "One of the goals of FBLA-PBL is to develop aggressive and competent business leadership." , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 37 , "qtype" : "tf" , "q" : "\"I Believe\" is the beginning of the FBLA Creed" , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 38 , "qtype" : "tf" , "q" : "According to the National FBLA website, sneakers are allowed by the dress code." , "ac" : ["True", "False"] , "a" : "False"}
+{"id" : 39 , "qtype" : "tf" , "q" : "Science Hill High School in Johnson City, Tennessee is where the first FBLA high school chapter was chartered." , "ac" : ["True", "False"] , "a" : "True"}
+{"id" : 40 , "qtype" : "fitb" , "q" : "Tomorrow's Business Leader is published _ times per year (enter a number)." , "a" : "4"}
+{"id" : 41 , "qtype" :"mc" , "q" : "Who is the current CEO of FBLA?" , "as" : ["Alexander T. Graham", "Jason Matz", "Mary Ait", "Elena Daly"] , "a" : "Alexander T. Graham"}
+{"id" : 42 , "qtype" : "fitb" , "q" : "The sum total of an individual's personality traits and their values and behavior is called an individual's _." , "a" : "character"}
+{"id" : 43 , "qtype" : "fitb" , "q" : "FBLA's first chapter was chartered in the state of _." , "a" : "iowa"}
+{"id" : 44 , "qtype" : "fitb" , "q" : "Georgia falls under the FBLA _ region." , "a" : "southern"}
+{"id" : 45 , "qtype" : "fitb" , "q" : "The State of California would be under the FBLA _ region." , "a" : "western"}
+{"id" : 46 , "qtype" : "dd" , "q" : "Select either \"GOAL\" or \"NOT GOAL\" depending on if strengthening the confidence of students in themselves and their work is one of the official FBLA-PBL goals or not one of the official FBLA-PBL goals." , "ac" : ["GOAL" , "NOT GOAL"] , "a" : "GOAL"}
+{"id" : 47 , "qtype" : "dd" , "q" : "Select either \"DIVISION\" or \"NOT DIVISION\" depending on if Phi Beta Lambda is a division of FBLA or not a division of FBLA." , "ac" : ["DIVISION", "NOT DIVISION"] , "a" : "DIVISION"}
+{"id" : 48 , "qtype" : "dd" , "q" : "Select either \"IN CREST\" or \"NOT IN CREST\" depending on if attitude is a word on the fbla crest." , "ac" : ["IN CREST", "NOT IN CREST"] , "a" : "NOT IN CREST"}
+{"id" : 49 , "qtype" : "dd" , "q" : "Select either \"EVENT\" or \"NOT EVENT\" depending on if \"Introduction to Social Media Strategy\" is an event in FBLA." , "ac" : ["EVENT", "NOT EVENT"], "a" : "EVENT"}
+{"id" : 50 , "qtype" : "dd" , "q" : "Select either \"OFFICER\" or \"NOT OFFICER\" depending on if Secretary is an officer position in FBLA or not." , "ac" : ["OFFICER", "NOT OFFICER"] , "a" : "OFFICER"}
